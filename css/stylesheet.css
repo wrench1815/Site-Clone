@@ -1,19 +1,6 @@
 /* Custom Css For the Site */
-:root{
-    --btn-color: linear-gradient(rgb(220,220,220), rgb(189,189,189),rgb(220,220,220));
-    --btn-border: #dddbdd;
-}
+
 .logo-img{
     width: 100px;
     height: 100px;
-}
-.passport-img{
-    width: 150px;
-    height: 200px;
-}
-.custom-border{
-    border: 3px solid var(--btn-border);
-}
-.btn-color{
-    background: var(--btn-color);
 }
