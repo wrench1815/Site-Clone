@@ -33,7 +33,9 @@
         <img src="Images/logo.png" alt="logo" class="logo-img" />
         <h1 class="ml-4 font-weight-bold">District Administration, Ramban</h1>
       </div>
-      <em class="fab fa-4x fa-facebook mr-5"></em>
+      <a class="text-muted" href="http://" target="_blank"
+        ><em class="fab fa-4x fa-facebook mr-5 text-dark"></em
+      ></a>
     </header>
 
     <!-- navbar -->
@@ -123,7 +125,7 @@
             placeholder="Search the Site"
             aria-label="Search"
           />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          <button class="btn btn-success my-2 my-sm-0" type="submit">
             Search
           </button>
         </form>
@@ -133,16 +135,12 @@
     <section class="container-fluid pt-2 mt-2 bg-light">
       <div class="row">
         <!-- left column   -->
-        <div class="col p-0 m-3">
-          <!-- * Left column section
-               * Shows Image and some text below it
-          -->
-          <!-- dark border changed -->
-          <section class="card">
-            <div class="btn btn-dark btn-block rounded-0">
+        <div class="col p-0 mx-3 mb-3">
+          <section class="bg-white shadow mb-3 pb-1">
+            <div class="btn btn-dark btn-block no-hover rounded-0">
               <em class="fas fa-user"></em> <span>Desk</span>
             </div>
-            <div class="mt-2 px-3">
+            <div class="pt-3 px-3">
               <img
                 src="Images/passport-img.jpg"
                 alt=""
@@ -163,8 +161,12 @@
           </section>
         </div>
         <!-- middle column -->
-        <section class="col-7">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <section class="col-7 mb-3">
+          <ul
+            class="nav nav-pills nav-fill bg-white shadow-sm"
+            id="myTab"
+            role="tablist"
+          >
             <!-- * District Profile Tab Link -->
             <li class="nav-item" role="presentation">
               <a
@@ -249,7 +251,7 @@
               <!-- carousel -->
               <div
                 id="carouselExampleControls"
-                class="carousel slide"
+                class="carousel slide shadow"
                 data-ride="carousel"
               >
                 <div class="carousel-inner">
@@ -304,7 +306,7 @@
                 </a>
               </div>
               <!-- accordion -->
-              <div class="accordion mt-4 mb-2" id="accordionExample">
+              <div class="accordion mt-4 mb-2 shadow" id="accordionExample">
                 <!-- Administration section -->
                 <div class="card">
                   <div class="card-header" id="headingOne">
@@ -367,7 +369,7 @@
                                 <li>Ipsum</li>
                               </ol>
                             </td>
-                            <td class="pre-scrollable">
+                            <td>
                               <ol id="custom-scroll">
                                 <li>Dolor</li>
                                 <li>Dolor</li>
@@ -563,13 +565,15 @@
           </div>
         </section>
         <!-- right column -->
-        <section class="col-3">
+        <section class="col-3 mb-3">
           <button class="btn btn-sm btn-block btn-danger py-2" type="submit">
             CM Grievance-Lodge Complaint <em class="fas fa-angle-right"></em>
           </button>
           <!-- Flood releif -->
-          <div class="border border-dark mt-4">
-            <div class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left">
+          <div class="mt-4 bg-white shadow">
+            <div
+              class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left no-hover"
+            >
               <em class="fas fa-info-circle"></em>
               <span>Flood 2014/releif Distribution</span>
             </div>
@@ -580,8 +584,10 @@
             >
           </div>
           <!-- Consumer Grievance -->
-          <div class="border border-dark mt-4">
-            <div class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left">
+          <div class="mt-4 bg-white shadow pb-2">
+            <div
+              class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left no-hover"
+            >
               <em class="fas fa-user"></em>
               <em class="fas fa-user"></em>
               <span>Consumer Grievance Redressal</span>
@@ -596,19 +602,23 @@
               ><em class="fas fa-arrow-right text-dark"></em> Know your Consumer
               Rights</a
             >
-            <div class="btn btn-sm btn-block btn-success text-left">
-              <img
-                src="Images/jago-grahak-jago.png"
-                alt=""
-                class="img-fluid"
-                style="width: 50px"
-              />
-              Have Grievence? Lodge Complaint
+            <div class="mx-1">
+              <div class="btn btn-sm btn-block btn-success text-left">
+                <img
+                  src="Images/jago-grahak-jago.png"
+                  alt=""
+                  class="img-fluid"
+                  style="width: 45px"
+                />
+                Have Grievence? Lodge Complaint
+              </div>
             </div>
           </div>
           <!-- District Statistics -->
-          <div class="border border-dark mt-4">
-            <div class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left">
+          <div class="mt-4 bg-white shadow">
+            <div
+              class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left no-hover"
+            >
               <em class="fas fa-info-circle"></em>
               <span>District Statistics/Information</span>
             </div>
@@ -671,8 +681,10 @@
             </a>
           </div>
           <!-- National Food Safety Act -->
-          <div class="border border-dark mt-4">
-            <div class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left">
+          <div class="mt-4 bg-white shadow">
+            <div
+              class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left no-hover"
+            >
               <em class="fas fa-crosshairs"></em>
               <span>National Food Safety Act (NSFA)</span>
             </div>
@@ -705,8 +717,10 @@
             </ol>
           </div>
           <!-- Land Rates -->
-          <div class="border border-dark mt-4">
-            <div class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left">
+          <div class="mt-4 bg-white shadow">
+            <div
+              class="btn btn-sm btn-dark btn-block rounded-0 py-2 text-left no-hover"
+            >
               <em class="far fa-hand-point-right"></em>
               <span>Land Rates</span>
             </div>
@@ -720,11 +734,13 @@
     </section>
     <!-- footer section -->
     <footer class="mt-2">
-      <div class="d-flex align-items-center p-2 justify-content-around pt-4">
-        <img src="Images/india.png" alt="india.gov.in" />
-        <img src="Images/digilocker.png" alt="digilocker" />
-        <img src="Images/india.png" alt="india.gov.in" />
-        <img src="Images/digilocker.png" alt="digilocker" />
+      <div
+        class="d-flex align-items-center p-2 justify-content-around pt-4 flex-wrap"
+      >
+        <img class="img-fluid" src="Images/india.png" alt="india.gov.in" />
+        <img class="img-fluid" src="Images/digilocker.png" alt="digilocker" />
+        <img class="img-fluid" src="Images/india.png" alt="india.gov.in" />
+        <img class="img-fluid" src="Images/digilocker.png" alt="digilocker" />
       </div>
       <div class="bg-light text-center pt-2">
         <!-- Code Repository -->
