@@ -23,7 +23,7 @@
   background: var(--btn-color);
 }
 
-#custom-scroll{
+#custom-scroll {
   height: 190px;
   overflow: auto;
 }
@@ -34,4 +34,7 @@
   height: 500px;
   width: 600px;
 }
-
+.no-hover {
+  pointer-events: none;
+  cursor: default;
+}
