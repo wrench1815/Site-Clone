@@ -22,3 +22,7 @@
 .btn-color {
   background: var(--btn-color);
 }
+#custom-scroll{
+  height: 190px;
+  overflow: auto;
+}
